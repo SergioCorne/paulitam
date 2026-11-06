@@ -16,9 +16,9 @@ test('all requested collections have distinct designs and two-view image assets'
 });
 test('gift totals use integer cents, scale with quantity and include both BFF pairs',()=>{
  const pack={id:'bff-sun',size:36,friendSize:41,quantity:2,gift:true};
- assert.equal(core.unitCents(pack,products),8370);
- assert.equal(core.totalCents([pack,{id:'music',size:38,quantity:1,gift:true}],products),21720);
- assert.equal(core.unitCents({...pack,gift:false},products),7980);
+ assert.equal(core.unitCents(pack,products),7370);
+ assert.equal(core.totalCents([pack,{id:'music',size:38,quantity:1,gift:true}],products),19220);
+ assert.equal(core.unitCents({...pack,gift:false},products),6980);
 });
 test('restored carts reject invalid IDs, sizes and incomplete packs; clamp quantities and messages',()=>{
  const input=[{id:'bff-sun',size:36,friendSize:41,quantity:12,gift:true,message:'x'.repeat(200)}, {id:'bff-moon',size:36,quantity:1},{id:'fake',size:36,quantity:1},{id:'snow',size:99,quantity:1},{id:'music',size:38,option:'injected',quantity:1}];

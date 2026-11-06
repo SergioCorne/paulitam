@@ -8,6 +8,16 @@ Carrito local persistente y descarga de selección con tallas, charms y presenta
 
 **Web:** https://paulitam.woas-team.team
 
+## Atelier de PaulitaM
+
+La ampliación conserva las 17 colecciones y sus 19 diseños. Añade un único modelo liso con nueve variantes de color (no nueve productos duplicados), 18 charms independientes en nueve categorías, favoritos locales y un configurador real conectado al carrito. Permite llevar solo zuecos, solo charms o una combinación sin mínimo de charms. El color, la talla, las cantidades y las posiciones se conservan tras recargar; las posiciones se mueven con arrastre o flechas del teclado. La vista representa hasta 24 charms y contabiliza todos los seleccionados.
+
+Las nuevas referencias son editables en `site/atelier-catalog.js`. No tienen fotografías reales, stock ni costes confirmados: las ilustraciones esquemáticas se etiquetan como tales. Para incorporar fotos, añadir rutas relativas en `photos` (por color en los zuecos, por producto en los charms). Mantener referencias y costes verificados al completar el catálogo. Los recuerdos del diario también se editan en ese archivo; sus fotos y fechas están vacías hasta disponer de contenido real.
+
+Los precios de muestra revisados y el desglose anterior/nuevo están documentados en [PRECIOS.md](PRECIOS.md) y en la web. Los importes se calculan en céntimos, incluyen los charms y regalos elegidos y separan el envío. `costCents` permite configurar un coste real; el cálculo rechaza un precio inferior al coste. No hay costes inferidos.
+
+El álbum, la colección «Pequeñas cosas que me hacen ser yo», la personalidad de la marca, el sobre con mensajes sin repetición inmediata, el corazón escondido y las dedicatorias sugeridas amplían la web original. Se conservan el test, Pack BFF, regalos, imágenes, historia y descarga de selección. Favoritos, borrador y bolsa se guardan en el navegador, sin enviar datos personales.
+
 ## Desarrollo
 
 Sin dependencias de compilación. `python3 -m http.server 4173 --directory site` y abrir http://localhost:4173.

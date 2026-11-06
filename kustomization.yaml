@@ -12,6 +12,12 @@ configMapGenerator:
       - site/index.html
       - site/styles.css
       - site/app.js
+      - site/atelier-catalog.js
+      - site/atelier-core.js
+      - site/atelier-visuals.js
+      - site/atelier-ui.js
+      - site/atelier-designer.js
+      - site/atelier.css
       - site/catalog.js
       - site/shop-core.js
       - site/universe.css
