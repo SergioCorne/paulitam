@@ -22,7 +22,7 @@ El Application y el AppProject acotado `paulitam` están registrados en `WoAS-de
 
 Tráfico: Cloudflare HTTPS → túnel WoAS clients → Traefik HTTPS → Service → Nginx sin privilegios. El DNS CNAME proxied apunta al túnel existente `08fdca05-9c98-4c77-8b9e-c25496de6aae.cfargotunnel.com`.
 
-Para actualizar, editar `site/`, validar y enviar a `main`. ArgoCD sincroniza automáticamente, con self-heal y prune. Revertir con `git revert` del commit correspondiente. La CI valida JavaScript y renderizado de Kubernetes.
+Para actualizar, editar `site/`, ejecutar `python3 scripts/version-assets.py`, validar y enviar a `main`. El script versiona por contenido las referencias HTML para que las cachés de navegador y Cloudflare no mezclen JavaScript antiguo con un catálogo nuevo. ArgoCD sincroniza automáticamente, con self-heal y prune. Revertir con `git revert` del commit correspondiente. La CI valida JavaScript, versiones de recursos y renderizado de Kubernetes.
 
 La portada y las 19 imágenes de catálogo fueron creadas con la herramienta integrada de generación de imágenes. Cada imagen de producto contiene dos fotografías conceptuales del mismo diseño, frontal y superior, mostradas por separado en su galería. Archivos finales y prompts en [ASSETS.md](ASSETS.md). Los diseños Disney utilizan motivos del cuento y la sabana; no son fotografías de producto oficial.
 
