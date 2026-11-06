@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: paulitam
+  labels:
+    app.kubernetes.io/part-of: paulitam

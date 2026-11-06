@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: paulitam
+resources:
+  - deploy/namespace.yaml
+  - deploy/deployment.yaml
+  - deploy/service.yaml
+  - deploy/ingress.yaml
+configMapGenerator:
+  - name: paulitam-site
+    files:
+      - site/index.html
+      - site/styles.css
+      - site/app.js
+      - site/favicon.svg
+      - site/hero.webp
+      - site/robots.txt
+  - name: paulitam-nginx
+    files:
+      - deploy/default.conf

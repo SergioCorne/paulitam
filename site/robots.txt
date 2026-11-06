@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Sample catalog; enable indexing when the commercial catalog is confirmed.
