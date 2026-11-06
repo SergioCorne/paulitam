@@ -13,15 +13,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --check site/app.js
+      - run: node --check site/app.js && node --check site/catalog.js && node --check site/shop-core.js
+      - run: node --test tests/*.test.cjs
       - name: Render manifests
         run: kubectl kustomize . > /tmp/paulitam.yaml
       - name: Check Kubernetes object and ConfigMap limits
         run: |
           python3 - <<'PY'
           import pathlib
-          size = sum(p.stat().st_size for p in pathlib.Path('site').iterdir())
-          assert size < 500_000, 'Site must fit safely in a Kubernetes ConfigMap'
+          objects = pathlib.Path('/tmp/paulitam.yaml').read_text().split('\n---\n')
+          for obj in objects:
+              if 'kind: ConfigMap\n' in obj:
+                  assert len(obj.encode()) < 240_000, 'ConfigMap must fit apply and API limits'
           for name in ('index.html', 'app.js', 'styles.css', 'hero.webp', 'favicon.svg'):
               assert pathlib.Path('site', name).is_file(), name
           PY

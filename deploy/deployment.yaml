@@ -62,8 +62,48 @@ spec:
               mountPath: /tmp
       volumes:
         - name: site
-          configMap:
-            name: paulitam-site
+          projected:
+            sources:
+              - configMap:
+                  name: paulitam-site
+              - configMap:
+                  name: paulitam-image-bloom
+              - configMap:
+                  name: paulitam-image-sunny
+              - configMap:
+                  name: paulitam-image-cozy
+              - configMap:
+                  name: paulitam-image-snow
+              - configMap:
+                  name: paulitam-image-belle
+              - configMap:
+                  name: paulitam-image-simba
+              - configMap:
+                  name: paulitam-image-pirate
+              - configMap:
+                  name: paulitam-image-snoopy
+              - configMap:
+                  name: paulitam-image-bff-sun
+              - configMap:
+                  name: paulitam-image-bff-moon
+              - configMap:
+                  name: paulitam-image-christmas
+              - configMap:
+                  name: paulitam-image-valentine
+              - configMap:
+                  name: paulitam-image-halloween
+              - configMap:
+                  name: paulitam-image-school
+              - configMap:
+                  name: paulitam-image-foodie
+              - configMap:
+                  name: paulitam-image-cosmic
+              - configMap:
+                  name: paulitam-image-pets
+              - configMap:
+                  name: paulitam-image-music
+              - configMap:
+                  name: paulitam-image-sports
         - name: config
           configMap:
             name: paulitam-nginx

@@ -12,9 +12,70 @@ configMapGenerator:
       - site/index.html
       - site/styles.css
       - site/app.js
+      - site/catalog.js
+      - site/shop-core.js
+      - site/universe.css
+      - site/heart-cursor.svg
       - site/favicon.svg
       - site/hero.webp
       - site/robots.txt
   - name: paulitam-nginx
     files:
       - deploy/default.conf
+  - name: paulitam-image-bloom
+    files:
+      - site/bloom.webp
+  - name: paulitam-image-sunny
+    files:
+      - site/sunny.webp
+  - name: paulitam-image-cozy
+    files:
+      - site/cozy.webp
+  - name: paulitam-image-snow
+    files:
+      - site/snow.webp
+  - name: paulitam-image-belle
+    files:
+      - site/belle.webp
+  - name: paulitam-image-simba
+    files:
+      - site/simba.webp
+  - name: paulitam-image-pirate
+    files:
+      - site/pirate.webp
+  - name: paulitam-image-snoopy
+    files:
+      - site/snoopy.webp
+  - name: paulitam-image-bff-sun
+    files:
+      - site/bff-sun.webp
+  - name: paulitam-image-bff-moon
+    files:
+      - site/bff-moon.webp
+  - name: paulitam-image-christmas
+    files:
+      - site/christmas.webp
+  - name: paulitam-image-valentine
+    files:
+      - site/valentine.webp
+  - name: paulitam-image-halloween
+    files:
+      - site/halloween.webp
+  - name: paulitam-image-school
+    files:
+      - site/school.webp
+  - name: paulitam-image-foodie
+    files:
+      - site/foodie.webp
+  - name: paulitam-image-cosmic
+    files:
+      - site/cosmic.webp
+  - name: paulitam-image-pets
+    files:
+      - site/pets.webp
+  - name: paulitam-image-music
+    files:
+      - site/music.webp
+  - name: paulitam-image-sports
+    files:
+      - site/sports.webp
