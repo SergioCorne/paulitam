@@ -1,22 +1,29 @@
 #!/usr/bin/env python3
 """Package individually generated reference images; never substitutes supplier photography."""
-import json, pathlib, re, subprocess, hashlib
+import json, pathlib, re, subprocess, hashlib, struct
 root=pathlib.Path(__file__).resolve().parents[1]
 entries=[]
-for name in ('clog-image-sources.json','charm-image-sources.json','extra-image-sources.json'):
+for name in ('clog-image-sources.json','charm-image-sources.json','extra-image-sources.json','collection-image-sources.json'):
  path=root/'qa'/name
  if path.exists(): entries.extend(json.loads(path.read_text()))
-manifest=[]
+manifest_path=root/'review'/'IMAGENES.json'
+manifest_by_id={row['id']:row for row in json.loads(manifest_path.read_text())} if manifest_path.exists() else {}
 for row in entries:
  source=pathlib.Path(re.search(r'as (/[^\n]+\.png) by default',row['hint']).group(1))
  dest=root/'site'/('ref-'+row['id']+'.webp')
- if not dest.exists(): subprocess.run(['cwebp','-quiet','-q','82','-resize','720','720',str(source),'-o',str(dest)],check=True)
- manifest.append({'id':row['id'],'file':dest.name,'status':'generated-reference','sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'prompt':row.get('prompt','Use case: product-mockup. One unbranded plain foam clog pair in the specified color. Three-quarter front view, full pair visible, warm cream blush studio backdrop, soft diffuse light, realistic molded foam texture, no logos or charms. Generated reference, no verified inventory.')})
-(root/'review'/'IMAGENES.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+ if not dest.exists():
+  if row['id'].startswith('model-'):
+   width,height=struct.unpack('>II',source.read_bytes()[16:24])
+   if abs(width/height-2)>0.03: raise ValueError('Expected two square photo panels for '+row['id'])
+  dimensions=['1400','700'] if row['id'].startswith('model-') else ['720','720']
+  subprocess.run(['cwebp','-quiet','-q','80','-resize',*dimensions,str(source),'-o',str(dest)],check=True)
+ manifest_by_id[row['id']]={'id':row['id'],'file':dest.name,'status':'generated-reference','sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'prompt':row.get('prompt','Use case: product-mockup. One unbranded plain foam clog pair in the specified color. Three-quarter front view, full pair visible, warm cream blush studio backdrop, soft diffuse light, realistic molded foam texture, no logos or charms. Generated reference, no verified inventory.')}
+manifest=list(manifest_by_id.values())
+manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 # Keep every ConfigMap safely below the repository's 240KB rendered-object limit.
 groups=[];group=[];size=0
 for asset in sorted((root/'site').glob('ref-*.webp')):
- if size+asset.stat().st_size>130000 and group:groups.append(group);group=[];size=0
+ if size+asset.stat().st_size>150000 and group:groups.append(group);group=[];size=0
  group.append(asset);size+=asset.stat().st_size
 if group:groups.append(group)
 k=root/'kustomization.yaml';text=k.read_text();text=text.split('\n  # BEGIN GENERATED REFERENCE ASSETS')[0].rstrip()+'\n'

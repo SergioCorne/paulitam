@@ -127,10 +127,10 @@ configMapGenerator:
       - site/ref-ch-croissant.webp
       - site/ref-ch-estrella.webp
       - site/ref-ch-flor.webp
-  - name: paulitam-reference-02
-    files:
       - site/ref-ch-gato.webp
       - site/ref-ch-huella.webp
+  - name: paulitam-reference-02
+    files:
       - site/ref-ch-inicial-a.webp
       - site/ref-ch-inicial-b.webp
       - site/ref-ch-inicial-c.webp
@@ -143,13 +143,13 @@ configMapGenerator:
       - site/ref-ch-inicial-i.webp
       - site/ref-ch-inicial-j.webp
       - site/ref-ch-inicial-k.webp
-  - name: paulitam-reference-03
-    files:
       - site/ref-ch-inicial-l.webp
       - site/ref-ch-inicial-m.webp
       - site/ref-ch-inicial-n.webp
       - site/ref-ch-inicial-o.webp
       - site/ref-ch-inicial-p.webp
+  - name: paulitam-reference-03
+    files:
       - site/ref-ch-inicial-q.webp
       - site/ref-ch-inicial-r.webp
       - site/ref-ch-inicial-s.webp
@@ -160,30 +160,28 @@ configMapGenerator:
       - site/ref-ch-inicial-x.webp
       - site/ref-ch-inicial-y.webp
       - site/ref-ch-inicial-z.webp
-  - name: paulitam-reference-04
-    files:
       - site/ref-ch-lazo.webp
       - site/ref-ch-libro.webp
       - site/ref-ch-luna.webp
       - site/ref-ch-mariposa.webp
+  - name: paulitam-reference-04
+    files:
       - site/ref-ch-mitades.webp
       - site/ref-ch-new-avocado.webp
       - site/ref-ch-new-boba.webp
       - site/ref-ch-new-corgi.webp
       - site/ref-ch-new-cupcake.webp
-  - name: paulitam-reference-05
-    files:
       - site/ref-ch-new-dachshund.webp
       - site/ref-ch-new-dalmatian.webp
       - site/ref-ch-new-dice.webp
       - site/ref-ch-new-dolphin.webp
       - site/ref-ch-new-duck.webp
+  - name: paulitam-reference-05
+    files:
       - site/ref-ch-new-fox.webp
       - site/ref-ch-new-fries.webp
       - site/ref-ch-new-frog.webp
       - site/ref-ch-new-ghost.webp
-  - name: paulitam-reference-06
-    files:
       - site/ref-ch-new-gingerbread.webp
       - site/ref-ch-new-headphones.webp
       - site/ref-ch-new-hedgehog.webp
@@ -191,10 +189,10 @@ configMapGenerator:
       - site/ref-ch-new-octopus.webp
       - site/ref-ch-new-peach.webp
       - site/ref-ch-new-poodle.webp
+  - name: paulitam-reference-06
+    files:
       - site/ref-ch-new-ribbonrose.webp
       - site/ref-ch-new-sushi.webp
-  - name: paulitam-reference-07
-    files:
       - site/ref-ch-new-turtle.webp
       - site/ref-ch-new-vinyl.webp
       - site/ref-ch-new-watermelon.webp
@@ -204,10 +202,10 @@ configMapGenerator:
       - site/ref-ch-numero-1.webp
       - site/ref-ch-numero-2.webp
       - site/ref-ch-numero-3.webp
+  - name: paulitam-reference-07
+    files:
       - site/ref-ch-numero-4.webp
       - site/ref-ch-numero-5.webp
-  - name: paulitam-reference-08
-    files:
       - site/ref-ch-numero-6.webp
       - site/ref-ch-numero-7.webp
       - site/ref-ch-numero-8.webp
@@ -219,7 +217,7 @@ configMapGenerator:
       - site/ref-ch-u-bag.webp
       - site/ref-ch-u-ballet.webp
       - site/ref-ch-u-bear.webp
-  - name: paulitam-reference-09
+  - name: paulitam-reference-08
     files:
       - site/ref-ch-u-bee.webp
       - site/ref-ch-u-bell.webp
@@ -229,10 +227,10 @@ configMapGenerator:
       - site/ref-ch-u-bunny.webp
       - site/ref-ch-u-burger.webp
       - site/ref-ch-u-cake.webp
-  - name: paulitam-reference-10
-    files:
       - site/ref-ch-u-camera.webp
       - site/ref-ch-u-candy.webp
+  - name: paulitam-reference-09
+    files:
       - site/ref-ch-u-capybara.webp
       - site/ref-ch-u-carrot.webp
       - site/ref-ch-u-cassette.webp
@@ -240,32 +238,30 @@ configMapGenerator:
       - site/ref-ch-u-chocolate.webp
       - site/ref-ch-u-circuit.webp
       - site/ref-ch-u-clock.webp
-  - name: paulitam-reference-11
-    files:
       - site/ref-ch-u-compass.webp
       - site/ref-ch-u-constellation.webp
       - site/ref-ch-u-coral.webp
       - site/ref-ch-u-crayon.webp
+  - name: paulitam-reference-10
+    files:
       - site/ref-ch-u-daisy.webp
       - site/ref-ch-u-disco.webp
       - site/ref-ch-u-dog.webp
       - site/ref-ch-u-dome.webp
       - site/ref-ch-u-donut.webp
       - site/ref-ch-u-door.webp
-  - name: paulitam-reference-12
-    files:
       - site/ref-ch-u-dress.webp
       - site/ref-ch-u-eiffel.webp
       - site/ref-ch-u-flame.webp
       - site/ref-ch-u-gear.webp
       - site/ref-ch-u-icecream.webp
+  - name: paulitam-reference-11
+    files:
       - site/ref-ch-u-key.webp
       - site/ref-ch-u-lace.webp
       - site/ref-ch-u-leaf.webp
       - site/ref-ch-u-lemon.webp
       - site/ref-ch-u-lightning.webp
-  - name: paulitam-reference-13
-    files:
       - site/ref-ch-u-lights.webp
       - site/ref-ch-u-macaron.webp
       - site/ref-ch-u-microphone.webp
@@ -274,10 +270,10 @@ configMapGenerator:
       - site/ref-ch-u-music.webp
       - site/ref-ch-u-orange.webp
       - site/ref-ch-u-owl.webp
+  - name: paulitam-reference-12
+    files:
       - site/ref-ch-u-pancake.webp
       - site/ref-ch-u-park.webp
-  - name: paulitam-reference-14
-    files:
       - site/ref-ch-u-pasta.webp
       - site/ref-ch-u-phone.webp
       - site/ref-ch-u-planet.webp
@@ -286,9 +282,9 @@ configMapGenerator:
       - site/ref-ch-u-quill.webp
       - site/ref-ch-u-rainbow.webp
       - site/ref-ch-u-ribbon.webp
-      - site/ref-ch-u-rose.webp
-  - name: paulitam-reference-15
+  - name: paulitam-reference-13
     files:
+      - site/ref-ch-u-rose.webp
       - site/ref-ch-u-scooter.webp
       - site/ref-ch-u-shell.webp
       - site/ref-ch-u-starfish.webp
@@ -298,23 +294,327 @@ configMapGenerator:
       - site/ref-ch-u-tail.webp
       - site/ref-ch-u-taxi.webp
       - site/ref-ch-u-tile.webp
-  - name: paulitam-reference-16
-    files:
       - site/ref-ch-u-wave.webp
+  - name: paulitam-reference-14
+    files:
       - site/ref-ch-u-wing.webp
       - site/ref-liso-amarillo.webp
       - site/ref-liso-azul.webp
       - site/ref-liso-blanco.webp
       - site/ref-liso-chicle.webp
       - site/ref-liso-crema.webp
-  - name: paulitam-reference-17
-    files:
       - site/ref-liso-lila.webp
       - site/ref-liso-negro.webp
+  - name: paulitam-reference-15
+    files:
       - site/ref-liso-pastel-lateral.webp
       - site/ref-liso-pastel-superior.webp
       - site/ref-liso-pastel.webp
-  - name: paulitam-reference-18
-    files:
       - site/ref-liso-rojo.webp
       - site/ref-liso-verde.webp
+  - name: paulitam-reference-16
+    files:
+      - site/ref-model-belle.webp
+      - site/ref-model-pirate.webp
+  - name: paulitam-reference-17
+    files:
+      - site/ref-model-simba.webp
+      - site/ref-model-snoopy.webp
+      - site/ref-model-u-academia-estelar-1.webp
+  - name: paulitam-reference-18
+    files:
+      - site/ref-model-u-academia-estelar-2.webp
+      - site/ref-model-u-academia-estelar-3.webp
+      - site/ref-model-u-academia-estelar-4.webp
+  - name: paulitam-reference-19
+    files:
+      - site/ref-model-u-academia-estelar-5.webp
+      - site/ref-model-u-academia-estelar-6.webp
+      - site/ref-model-u-amigos-de-bolsillo-1.webp
+  - name: paulitam-reference-20
+    files:
+      - site/ref-model-u-amigos-de-bolsillo-2.webp
+      - site/ref-model-u-amigos-de-bolsillo-3.webp
+      - site/ref-model-u-amigos-de-bolsillo-4.webp
+  - name: paulitam-reference-21
+    files:
+      - site/ref-model-u-amigos-de-bolsillo-5.webp
+      - site/ref-model-u-amigos-de-bolsillo-6.webp
+      - site/ref-model-u-angelcore-1.webp
+      - site/ref-model-u-angelcore-2.webp
+  - name: paulitam-reference-22
+    files:
+      - site/ref-model-u-angelcore-3.webp
+      - site/ref-model-u-angelcore-4.webp
+      - site/ref-model-u-angelcore-5.webp
+  - name: paulitam-reference-23
+    files:
+      - site/ref-model-u-angelcore-6.webp
+      - site/ref-model-u-balletcore-1.webp
+      - site/ref-model-u-balletcore-2.webp
+  - name: paulitam-reference-24
+    files:
+      - site/ref-model-u-balletcore-3.webp
+      - site/ref-model-u-balletcore-4.webp
+      - site/ref-model-u-balletcore-5.webp
+  - name: paulitam-reference-25
+    files:
+      - site/ref-model-u-balletcore-6.webp
+      - site/ref-model-u-besties-1.webp
+      - site/ref-model-u-besties-2.webp
+  - name: paulitam-reference-26
+    files:
+      - site/ref-model-u-besties-3.webp
+      - site/ref-model-u-besties-4.webp
+      - site/ref-model-u-besties-5.webp
+  - name: paulitam-reference-27
+    files:
+      - site/ref-model-u-besties-6.webp
+      - site/ref-model-u-bolsillo-de-inventos-1.webp
+      - site/ref-model-u-bolsillo-de-inventos-2.webp
+  - name: paulitam-reference-28
+    files:
+      - site/ref-model-u-bolsillo-de-inventos-3.webp
+      - site/ref-model-u-bolsillo-de-inventos-4.webp
+      - site/ref-model-u-bolsillo-de-inventos-5.webp
+  - name: paulitam-reference-29
+    files:
+      - site/ref-model-u-bolsillo-de-inventos-6.webp
+      - site/ref-model-u-bunny-garden-1.webp
+      - site/ref-model-u-bunny-garden-2.webp
+  - name: paulitam-reference-30
+    files:
+      - site/ref-model-u-bunny-garden-3.webp
+      - site/ref-model-u-bunny-garden-4.webp
+      - site/ref-model-u-bunny-garden-5.webp
+  - name: paulitam-reference-31
+    files:
+      - site/ref-model-u-bunny-garden-6.webp
+      - site/ref-model-u-capybara-1.webp
+      - site/ref-model-u-capybara-2.webp
+  - name: paulitam-reference-32
+    files:
+      - site/ref-model-u-capybara-3.webp
+      - site/ref-model-u-capybara-4.webp
+      - site/ref-model-u-capybara-5.webp
+  - name: paulitam-reference-33
+    files:
+      - site/ref-model-u-capybara-6.webp
+      - site/ref-model-u-coquette-1.webp
+      - site/ref-model-u-coquette-2.webp
+  - name: paulitam-reference-34
+    files:
+      - site/ref-model-u-coquette-3.webp
+      - site/ref-model-u-coquette-4.webp
+  - name: paulitam-reference-35
+    files:
+      - site/ref-model-u-coquette-5.webp
+      - site/ref-model-u-coquette-6.webp
+      - site/ref-model-u-corazones-electricos-1.webp
+  - name: paulitam-reference-36
+    files:
+      - site/ref-model-u-corazones-electricos-2.webp
+      - site/ref-model-u-corazones-electricos-3.webp
+      - site/ref-model-u-corazones-electricos-4.webp
+  - name: paulitam-reference-37
+    files:
+      - site/ref-model-u-corazones-electricos-5.webp
+      - site/ref-model-u-corazones-electricos-6.webp
+      - site/ref-model-u-disco-girl-1.webp
+  - name: paulitam-reference-38
+    files:
+      - site/ref-model-u-disco-girl-2.webp
+      - site/ref-model-u-disco-girl-3.webp
+      - site/ref-model-u-disco-girl-4.webp
+  - name: paulitam-reference-39
+    files:
+      - site/ref-model-u-disco-girl-5.webp
+      - site/ref-model-u-disco-girl-6.webp
+      - site/ref-model-u-dreamy-1.webp
+  - name: paulitam-reference-40
+    files:
+      - site/ref-model-u-dreamy-2.webp
+      - site/ref-model-u-dreamy-3.webp
+      - site/ref-model-u-dreamy-4.webp
+  - name: paulitam-reference-41
+    files:
+      - site/ref-model-u-dreamy-5.webp
+      - site/ref-model-u-dreamy-6.webp
+      - site/ref-model-u-foodie-1.webp
+  - name: paulitam-reference-42
+    files:
+      - site/ref-model-u-foodie-2.webp
+      - site/ref-model-u-foodie-3.webp
+      - site/ref-model-u-foodie-4.webp
+  - name: paulitam-reference-43
+    files:
+      - site/ref-model-u-foodie-5.webp
+      - site/ref-model-u-gatita-de-lazo-1.webp
+      - site/ref-model-u-gatita-de-lazo-2.webp
+  - name: paulitam-reference-44
+    files:
+      - site/ref-model-u-gatita-de-lazo-3.webp
+      - site/ref-model-u-gatita-de-lazo-4.webp
+      - site/ref-model-u-gatita-de-lazo-5.webp
+  - name: paulitam-reference-45
+    files:
+      - site/ref-model-u-gatita-de-lazo-6.webp
+      - site/ref-model-u-granada-1.webp
+      - site/ref-model-u-granada-2.webp
+  - name: paulitam-reference-46
+    files:
+      - site/ref-model-u-granada-3.webp
+      - site/ref-model-u-granada-4.webp
+  - name: paulitam-reference-47
+    files:
+      - site/ref-model-u-granada-5.webp
+      - site/ref-model-u-granada-6.webp
+  - name: paulitam-reference-48
+    files:
+      - site/ref-model-u-hadas-del-dia-1.webp
+      - site/ref-model-u-hadas-del-dia-2.webp
+      - site/ref-model-u-hadas-del-dia-3.webp
+  - name: paulitam-reference-49
+    files:
+      - site/ref-model-u-hadas-del-dia-4.webp
+      - site/ref-model-u-hadas-del-dia-5.webp
+      - site/ref-model-u-hadas-del-dia-6.webp
+  - name: paulitam-reference-50
+    files:
+      - site/ref-model-u-invierno-1.webp
+      - site/ref-model-u-invierno-2.webp
+      - site/ref-model-u-invierno-3.webp
+  - name: paulitam-reference-51
+    files:
+      - site/ref-model-u-italia-1.webp
+      - site/ref-model-u-italia-2.webp
+      - site/ref-model-u-italia-3.webp
+  - name: paulitam-reference-52
+    files:
+      - site/ref-model-u-italia-4.webp
+      - site/ref-model-u-italia-5.webp
+      - site/ref-model-u-italia-6.webp
+  - name: paulitam-reference-53
+    files:
+      - site/ref-model-u-kawaii-1.webp
+      - site/ref-model-u-kawaii-2.webp
+      - site/ref-model-u-kawaii-3.webp
+  - name: paulitam-reference-54
+    files:
+      - site/ref-model-u-kawaii-4.webp
+      - site/ref-model-u-kawaii-5.webp
+      - site/ref-model-u-kawaii-6.webp
+  - name: paulitam-reference-55
+    files:
+      - site/ref-model-u-mermaidcore-1.webp
+      - site/ref-model-u-mermaidcore-2.webp
+      - site/ref-model-u-mermaidcore-3.webp
+  - name: paulitam-reference-56
+    files:
+      - site/ref-model-u-mermaidcore-4.webp
+      - site/ref-model-u-mermaidcore-5.webp
+      - site/ref-model-u-mermaidcore-6.webp
+  - name: paulitam-reference-57
+    files:
+      - site/ref-model-u-misterio-retro-1.webp
+      - site/ref-model-u-misterio-retro-2.webp
+  - name: paulitam-reference-58
+    files:
+      - site/ref-model-u-misterio-retro-3.webp
+      - site/ref-model-u-misterio-retro-4.webp
+      - site/ref-model-u-misterio-retro-5.webp
+  - name: paulitam-reference-59
+    files:
+      - site/ref-model-u-misterio-retro-6.webp
+      - site/ref-model-u-new-york-1.webp
+      - site/ref-model-u-new-york-2.webp
+  - name: paulitam-reference-60
+    files:
+      - site/ref-model-u-new-york-3.webp
+      - site/ref-model-u-new-york-4.webp
+      - site/ref-model-u-new-york-5.webp
+  - name: paulitam-reference-61
+    files:
+      - site/ref-model-u-new-york-6.webp
+      - site/ref-model-u-otono-1.webp
+      - site/ref-model-u-otono-2.webp
+  - name: paulitam-reference-62
+    files:
+      - site/ref-model-u-otono-3.webp
+      - site/ref-model-u-paris-1.webp
+      - site/ref-model-u-paris-2.webp
+  - name: paulitam-reference-63
+    files:
+      - site/ref-model-u-paris-3.webp
+      - site/ref-model-u-paris-4.webp
+      - site/ref-model-u-paris-5.webp
+  - name: paulitam-reference-64
+    files:
+      - site/ref-model-u-paris-6.webp
+      - site/ref-model-u-pink-world-1.webp
+      - site/ref-model-u-pink-world-2.webp
+  - name: paulitam-reference-65
+    files:
+      - site/ref-model-u-pink-world-3.webp
+      - site/ref-model-u-pink-world-4.webp
+      - site/ref-model-u-pink-world-5.webp
+  - name: paulitam-reference-66
+    files:
+      - site/ref-model-u-pink-world-6.webp
+      - site/ref-model-u-primavera-1.webp
+      - site/ref-model-u-primavera-2.webp
+  - name: paulitam-reference-67
+    files:
+      - site/ref-model-u-primavera-3.webp
+      - site/ref-model-u-recreo-de-colores-1.webp
+      - site/ref-model-u-recreo-de-colores-2.webp
+  - name: paulitam-reference-68
+    files:
+      - site/ref-model-u-recreo-de-colores-3.webp
+      - site/ref-model-u-recreo-de-colores-4.webp
+      - site/ref-model-u-recreo-de-colores-5.webp
+  - name: paulitam-reference-69
+    files:
+      - site/ref-model-u-recreo-de-colores-6.webp
+      - site/ref-model-u-rosa-de-pelicula-1.webp
+      - site/ref-model-u-rosa-de-pelicula-2.webp
+  - name: paulitam-reference-70
+    files:
+      - site/ref-model-u-rosa-de-pelicula-3.webp
+      - site/ref-model-u-rosa-de-pelicula-4.webp
+      - site/ref-model-u-rosa-de-pelicula-5.webp
+  - name: paulitam-reference-71
+    files:
+      - site/ref-model-u-rosa-de-pelicula-6.webp
+      - site/ref-model-u-san-valentin-1.webp
+      - site/ref-model-u-san-valentin-2.webp
+  - name: paulitam-reference-72
+    files:
+      - site/ref-model-u-san-valentin-3.webp
+      - site/ref-model-u-san-valentin-4.webp
+      - site/ref-model-u-san-valentin-5.webp
+  - name: paulitam-reference-73
+    files:
+      - site/ref-model-u-santorini-1.webp
+      - site/ref-model-u-santorini-2.webp
+      - site/ref-model-u-santorini-3.webp
+  - name: paulitam-reference-74
+    files:
+      - site/ref-model-u-santorini-4.webp
+      - site/ref-model-u-santorini-5.webp
+      - site/ref-model-u-santorini-6.webp
+  - name: paulitam-reference-75
+    files:
+      - site/ref-model-u-verano-1.webp
+      - site/ref-model-u-verano-2.webp
+      - site/ref-model-u-verano-3.webp
+  - name: paulitam-reference-76
+    files:
+      - site/ref-model-u-y2k-1.webp
+      - site/ref-model-u-y2k-2.webp
+      - site/ref-model-u-y2k-3.webp
+  - name: paulitam-reference-77
+    files:
+      - site/ref-model-u-y2k-4.webp
+      - site/ref-model-u-y2k-5.webp
+      - site/ref-model-u-y2k-6.webp
