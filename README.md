@@ -1,3 +1,11 @@
+# PaulitaM 2.0 — propuesta en revisión
+
+Rama `paulitam-2-review`: no publicada. Conserva la tienda existente y amplía catálogo y experiencias. [Precios](review/PRECIOS.md), [condiciones y publicación GitOps](review/PUBLICACION.md), [licencias](review/LICENCIAS.md).
+
+Vista local: `STATIC_DIR=site DATABASE_PATH=qa/review-v2.sqlite PORT=4173 node server/app.cjs` (Node 24 o superior; crear antes `qa/`). Pruebas: `node --test tests/*.test.cjs`.
+
+La documentación de la versión anterior se conserva abajo como referencia del despliegue actual.
+
 # PaulitaM
 
 Tienda de muestra de Paulita: 17 colecciones y 19 diseños con charms propios, dos vistas por modelo, tallas EU y cursor corazón. Colecciones estacionales, Disney (La Bella y la Bestia y El Rey León), Piratas del Caribe, Snoopy, Pack BFF, Navidad, San Valentín, Halloween, vuelta al cole, foodie, cósmica, mascotas, música y deportes. Invierno y Navidad llevan pelito interior.

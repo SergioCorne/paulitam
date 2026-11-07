@@ -3,7 +3,7 @@ const AtelierCore={
  validQuantity:n=>Number.isSafeInteger(n)&&n>0&&n<=999,
  normalizeLine(line,all){
   const p=all.find(p=>p.id===line.id);if(!p?.kind||!this.validQuantity(line.quantity))return null;
-  const common={id:p.id,quantity:line.quantity,gift:line.gift===true,message:typeof line.message==='string'?line.message.slice(0,160):'',option:'',friendSize:null};
+  const common={id:p.id,quantity:line.quantity,gift:line.gift===true,message:typeof line.message==='string'?line.message.slice(0,160):'',option:'',friendSize:null,...(typeof line.requestedInitial==='string'&&/^[A-ZÑ]$/.test(line.requestedInitial)?{requestedInitial:line.requestedInitial}:{})};
   if(p.kind==='charm')return {...common,size:null,color:null,customization:[]};
   if(!p.sizes.includes(line.size)||!p.colors.some(c=>c.id===line.color))return null;
   const customization=[];
@@ -15,9 +15,9 @@ const AtelierCore={
   return {...common,size:line.size,color:line.color,customization};
  },
  safePriceCents(p){const price=Math.round(p.price*100);if(!Number.isSafeInteger(price)||price<0)throw Error('Invalid product price');if(Number.isInteger(p.costCents)&&price<p.costCents)throw Error('Price is below configured cost');return price;},
- breakdown(line,all){const p=all.find(p=>p.id===line.id);const base=this.safePriceCents(p);const extras=(line.customization||[]).map(s=>({id:s.id,quantity:s.quantity,unit:this.safePriceCents(all.find(c=>c.id===s.id))}));const charms=extras.reduce((n,s)=>n+s.unit*s.quantity,0);return {base,charms,extras,count:extras.reduce((n,s)=>n+s.quantity,0),gift:line.gift?390:0,total:base+charms+(line.gift?390:0)};},
+ breakdown(line,all){const p=all.find(p=>p.id===line.id);const base=this.safePriceCents(p);const extras=(line.customization||[]).map(s=>({id:s.id,quantity:s.quantity,unit:this.safePriceCents(all.find(c=>c.id===s.id))}));const charms=extras.reduce((n,s)=>n+s.unit*s.quantity,0);return {base,charms,extras,count:extras.reduce((n,s)=>n+s.quantity,0),gift:line.gift?(typeof StorePricing!=='undefined'?StorePricing.giftCents:190):0,total:base+charms+(line.gift?(typeof StorePricing!=='undefined'?StorePricing.giftCents:190):0)};},
  lineKey(line){const {quantity,...rest}=line;return JSON.stringify(rest);},
  addLine(cart,line){const existing=cart.find(x=>this.lineKey(x)===this.lineKey(line));if(existing){if(existing.quantity+line.quantity>999)throw Error('Máximo 999 unidades por selección.');existing.quantity+=line.quantity;}else cart.push(line);},
- snapshot(line,all){const p=all.find(p=>p.id===line.id);return {product:p.name,color:p.kind==='plain'?p.colors.find(c=>c.id===line.color)?.name:null,size:line.size,quantity:line.quantity,charms:(line.customization||[]).map(s=>({name:all.find(p=>p.id===s.id).name,quantity:s.quantity,placements:s.placements})),gift:line.gift,message:line.message,totalCents:this.breakdown(line,all).total*line.quantity};}
+ snapshot(line,all){const p=all.find(p=>p.id===line.id);return {product:p.name,color:p.kind==='plain'?p.colors.find(c=>c.id===line.color)?.name:null,size:line.size,quantity:line.quantity,requestedInitial:line.requestedInitial||null,charms:(line.customization||[]).map(s=>({name:all.find(p=>p.id===s.id).name,quantity:s.quantity,placements:s.placements})),gift:line.gift,message:line.message,totalCents:this.breakdown(line,all).total*line.quantity};}
 };
 if(typeof module!=='undefined')module.exports=AtelierCore;

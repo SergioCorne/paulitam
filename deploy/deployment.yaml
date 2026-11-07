@@ -67,6 +67,16 @@ spec:
               - configMap:
                   name: paulitam-site
               - configMap:
+                  name: paulitam-universe-data
+              - configMap:
+                  name: paulitam-universe-ui
+              - configMap:
+                  name: paulitam-private-ui
+              - configMap:
+                  name: paulitam-universe-art
+              - configMap:
+                  name: paulitam-qr-library
+              - configMap:
                   name: paulitam-image-bloom
               - configMap:
                   name: paulitam-image-sunny

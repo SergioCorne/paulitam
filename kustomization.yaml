@@ -6,6 +6,7 @@ resources:
   - deploy/deployment.yaml
   - deploy/service.yaml
   - deploy/ingress.yaml
+  - deploy/experiences-api.yaml
 configMapGenerator:
   - name: paulitam-site
     files:
@@ -85,3 +86,26 @@ configMapGenerator:
   - name: paulitam-image-sports
     files:
       - site/sports.webp
+  - name: paulitam-universe-data
+    files:
+      - site/universe-catalog.js
+      - site/pricing-review.js
+      - site/experiences-data.js
+  - name: paulitam-universe-ui
+    files:
+      - site/universe-ui.js
+      - site/community-ui.js
+  - name: paulitam-private-ui
+    files:
+      - site/private-cards.js
+      - site/universe-bootstrap.js
+  - name: paulitam-universe-art
+    files:
+      - site/universe-visuals.js
+      - site/experiences.css
+  - name: paulitam-qr-library
+    files:
+      - site/qrcode.js
+  - name: paulitam-api-source
+    files:
+      - server/app.cjs
