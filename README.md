@@ -1,3 +1,13 @@
+# PaulitaM 2.0
+
+Evolución de la tienda existente: HOME independiente, 43 colecciones, 197 modelos temáticos, diez colores lisos y 153 charms. Menú de seis secciones; favoritos y experiencias siguen accesibles. Carrito y pedido descargable, sin cobro. Las imágenes de lisos y charms son referencias generadas identificadas, no fotografías de inventario real.
+
+[Comparación de precios](review/PRECIOS.md) · [Operación GitOps y privacidad](review/PUBLICACION.md) · [Licencias](review/LICENCIAS.md) · [Imágenes y prompts](review/IMAGENES.json).
+
+Vista local: `mkdir -p qa` y `STATIC_DIR=site DATABASE_PATH=qa/review-v2.sqlite PORT=4173 node server/app.cjs` (Node 24+). Pruebas: `node --test tests/*.test.cjs`.
+
+La documentación de la versión anterior se conserva abajo como referencia del despliegue actual.
+
 # PaulitaM
 
 Tienda de muestra de Paulita: 17 colecciones y 19 diseños con charms propios, dos vistas por modelo, tallas EU y cursor corazón. Colecciones estacionales, Disney (La Bella y la Bestia y El Rey León), Piratas del Caribe, Snoopy, Pack BFF, Navidad, San Valentín, Halloween, vuelta al cole, foodie, cósmica, mascotas, música y deportes. Invierno y Navidad llevan pelito interior.

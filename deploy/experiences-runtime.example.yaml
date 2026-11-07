@@ -1,0 +1,14 @@
+# Template only: intentionally not included in kustomization.yaml.
+# Provide actual values securely; never commit a filled-in copy.
+apiVersion: v1
+kind: Secret
+metadata:
+  name: paulitam-experiences-runtime
+  namespace: paulitam
+type: Opaque
+stringData:
+  MODERATION_TOKEN: REPLACE_WITH_A_RANDOM_SECRET_OF_AT_LEAST_32_BYTES
+  # Optional email service. All three values are required to enable email.
+  DATA_ENCRYPTION_KEY: REPLACE_WITH_64_HEX_CHARACTERS
+  RESEND_API_KEY: REPLACE_WITH_YOUR_VERIFIED_PROVIDER_KEY
+  CAPSULE_FROM: REPLACE_WITH_YOUR_VERIFIED_SENDER

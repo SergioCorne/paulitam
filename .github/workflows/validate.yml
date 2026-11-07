@@ -12,9 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
       - run: node --check site/app.js && node --check site/catalog.js && node --check site/shop-core.js
-      - run: for file in site/atelier*.js; do node --check "$file"; done
+      - run: for file in site/*.js server/*.cjs; do node --check "$file"; done
       - run: node --test tests/*.test.cjs
       - run: python3 scripts/version-assets.py --check
       - name: Render manifests

@@ -65,7 +65,19 @@ spec:
           projected:
             sources:
               - configMap:
+                  name: paulitam-storefront
+              - configMap:
                   name: paulitam-site
+              - configMap:
+                  name: paulitam-universe-data
+              - configMap:
+                  name: paulitam-universe-ui
+              - configMap:
+                  name: paulitam-private-ui
+              - configMap:
+                  name: paulitam-universe-art
+              - configMap:
+                  name: paulitam-qr-library
               - configMap:
                   name: paulitam-image-bloom
               - configMap:
@@ -104,6 +116,44 @@ spec:
                   name: paulitam-image-music
               - configMap:
                   name: paulitam-image-sports
+              # BEGIN GENERATED REFERENCE ASSETS
+              - configMap:
+                  name: paulitam-reference-01
+              - configMap:
+                  name: paulitam-reference-02
+              - configMap:
+                  name: paulitam-reference-03
+              - configMap:
+                  name: paulitam-reference-04
+              - configMap:
+                  name: paulitam-reference-05
+              - configMap:
+                  name: paulitam-reference-06
+              - configMap:
+                  name: paulitam-reference-07
+              - configMap:
+                  name: paulitam-reference-08
+              - configMap:
+                  name: paulitam-reference-09
+              - configMap:
+                  name: paulitam-reference-10
+              - configMap:
+                  name: paulitam-reference-11
+              - configMap:
+                  name: paulitam-reference-12
+              - configMap:
+                  name: paulitam-reference-13
+              - configMap:
+                  name: paulitam-reference-14
+              - configMap:
+                  name: paulitam-reference-15
+              - configMap:
+                  name: paulitam-reference-16
+              - configMap:
+                  name: paulitam-reference-17
+              - configMap:
+                  name: paulitam-reference-18
+              # END GENERATED REFERENCE ASSETS
         - name: config
           configMap:
             name: paulitam-nginx

@@ -17,7 +17,7 @@ test('three independent purchase modes have no minimum charm requirement',()=>{
 test('custom colors, quantities, gift cards and positions survive a cart round trip',()=>{
  const line=core.normalizeLine({...base,quantity:2,gift:true,message:'Para mi persona favorita',customization:[{id:'ch-flor',quantity:2,placements:[{x:34,y:26},{x:56,y:32}]}]},all);
  const restored=shop.normalizeCart(JSON.parse(JSON.stringify([line])),all,[36,37,38,39,40,41]);
- assert.deepEqual(restored,[line]);assert.equal(shop.totalCents(restored,all),6360);
+ assert.deepEqual(restored,[line]);assert.equal(shop.totalCents(restored,all),5960);
  assert.deepEqual(core.snapshot(restored[0],all).charms[0].placements,line.customization[0].placements);
  assert.equal(core.snapshot(line,all).color,'Lila');
 });
