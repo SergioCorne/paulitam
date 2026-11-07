@@ -31,6 +31,6 @@ La API limita solicitudes por IP remota; detrás del proxy esta cuota puede ser 
 
 ## Imágenes y mantenimiento
 
-153 referencias individuales de charms y diez colores lisos, con vistas adicionales del rosa pastel. Todas se generan de forma independiente mediante la herramienta integrada, se optimizan como WebP y llevan etiqueta visible. Los archivos y prompts están en IMAGENES.json; no acreditan disponibilidad ni materiales reales. Para incorporar fotos reales, editar product-media.js y añadir los archivos correspondientes al empaquetado de Kustomize, distinguiendo expresamente su procedencia. Nunca anunciar zuecos genéricos como Crocs originales.
+197 modelos temáticos con dos vistas de estilo fotográfico, 153 referencias individuales de charms y diez colores lisos, con vistas adicionales del rosa pastel. Todas se generan de forma independiente mediante la herramienta integrada, se optimizan como WebP y llevan etiqueta visible. Los archivos y prompts están en IMAGENES.json; no acreditan disponibilidad ni materiales reales. Para incorporar fotos reales, editar product-media.js y añadir los archivos correspondientes al empaquetado de Kustomize, distinguiendo expresamente su procedencia. Nunca anunciar zuecos genéricos como Crocs originales.
 
 El PVC lleva Prune=false para proteger los datos al revertir una versión. No borrarlo al hacer rollback. La galería pública requiere moderación manual; no se añaden mensajes o clientes ficticios.

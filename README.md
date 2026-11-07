@@ -1,6 +1,6 @@
 # PaulitaM 2.0
 
-Evolución de la tienda existente: HOME independiente, 43 colecciones, 197 modelos temáticos, diez colores lisos y 153 charms. Menú de seis secciones; favoritos y experiencias siguen accesibles. Carrito y pedido descargable, sin cobro. Las imágenes de lisos y charms son referencias generadas identificadas, no fotografías de inventario real.
+Evolución de la tienda existente: HOME independiente, 43 colecciones, 197 modelos temáticos, diez colores lisos y 153 charms. Menú de seis secciones; favoritos y experiencias siguen accesibles. Carrito y pedido descargable, sin cobro. Todos los modelos de las colecciones, los lisos y los charms utilizan referencias de estilo fotográfico generadas e identificadas, no fotografías de inventario real. Cada modelo temático dispone de vista frontal y superior.
 
 [Comparación de precios](review/PRECIOS.md) · [Operación GitOps y privacidad](review/PUBLICACION.md) · [Licencias](review/LICENCIAS.md) · [Imágenes y prompts](review/IMAGENES.json).
 
