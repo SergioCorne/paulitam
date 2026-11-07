@@ -21,7 +21,7 @@ for row in entries:
 # Keep every ConfigMap safely below the repository's 240KB rendered-object limit.
 groups=[];group=[];size=0
 for asset in sorted((root/'site').glob('ref-*.webp')):
- if size+asset.stat().st_size>130000 and group:groups.append(group);group=[];size=0
+ if size+asset.stat().st_size>150000 and group:groups.append(group);group=[];size=0
  group.append(asset);size+=asset.stat().st_size
 if group:groups.append(group)
 k=root/'kustomization.yaml';text=k.read_text();text=text.split('\n  # BEGIN GENERATED REFERENCE ASSETS')[0].rstrip()+'\n'
