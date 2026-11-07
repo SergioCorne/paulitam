@@ -45,3 +45,6 @@ test('moderation records persist on disk across service restarts',async()=>{
  const dir=await mkdtemp(path.join(os.tmpdir(),'paulitam-fixture-'));const database=path.join(dir,'state.sqlite');
  try{const first=createApp({database,env:{}});first.db.prepare('INSERT INTO records(id,type,owner_hash,payload,status,created,expires) VALUES(?,?,?,?,?,?,?)').run('fixture','wish',hash('owner-fixture'),JSON.stringify({text:'Synthetic durable fixture'}),'pending',Date.now(),Date.now()+86400000);first.close();const second=createApp({database,env:{}});assert.equal(second.db.prepare('SELECT status FROM records WHERE id=?').get('fixture').status,'pending');second.close();}finally{await rm(dir,{recursive:true,force:true});}
 });
+test('shared planets retain the newly offered yellow clog color',async t=>{
+ const a=await run(t,{env:{}});const result=await a.request('/api/community','POST',{type:'planet',consent:true,payload:{alias:'Planeta amarillo',persona:'sunshine',color:'#efdb91',charms:['ch-inicial-a'],collection:'verano',design:{id:'liso-clasico',color:'amarillo',size:38,customization:[{id:'ch-inicial-a',quantity:2,placements:[]}]}}});assert.equal(result.status,201);const row=a.db.prepare('SELECT payload FROM records WHERE id=?').get(result.data.id);assert.equal(JSON.parse(row.payload).design.color,'amarillo');
+});

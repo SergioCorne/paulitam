@@ -1,3 +1,3 @@
-# Precios pendientes de revisión
+# Precios PaulitaM 2.0
 
-La propuesta vigente de PaulitaM 2.0 está en [review/PRECIOS.md](review/PRECIOS.md), con su [CSV](review/precios.csv) y los 288 artículos. Esta rama no modifica los precios públicos hasta su aprobación y merge.
+Consulta la [comparación completa de 351 referencias](review/PRECIOS.md) y su [CSV](review/precios.csv). Son importes orientativos del catálogo sin cobro, autorizados tras revisión. Costes y márgenes reales pendientes.

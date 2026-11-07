@@ -1,10 +1,10 @@
-# Propuesta de precios PaulitaM 2.0
+# Comparación de precios PaulitaM 2.0
 
-**Pendiente de aprobación. No publicada.** Importes de catálogo, sin portes. No hay costes de proveedor verificados: el margen no se puede estimar y no se garantiza viabilidad hasta recibirlos. Son precios permanentes propuestos, no descuentos temporales.
+Precios autorizados para el catálogo de referencia por el usuario, manteniendo la compra sin cobro. No hay costes de proveedor verificados: el margen no se puede estimar y debe revisarse la viabilidad antes de vender. No se inventan costes ni márgenes.
 
-Los nuevos conceptos no tenían precio anterior; se indica «Nuevo». El configurador suma zueco + unidades de cada charm. BFF: 69,80 € → 33,80 €. Envoltorio y tarjeta: 3,90 € → 1,90 €. Envío separado y pendiente de confirmar.
+351 referencias: 197 modelos temáticos, 153 charms y un modelo liso con diez colores. Cada nuevo charm se propone a 0,95 €. El configurador suma zueco y cada unidad de charm; no hay mínimos ni packs obligatorios. BFF: 69,80 € → 33,80 €. Regalo: 3,90 € → 1,90 €. Envío separado y sin calcular. Precios permanentes orientativos, no descuentos temporales.
 
-Cuando se incorpore un coste verificado, el cálculo protege un margen bruto orientativo mínimo del 20% sobre venta; debe revisarse también IVA, portes, comisiones y costes operativos. Actualmente no se han inventado esos costes.
+Si se incorpora un coste real, el cálculo protege un margen bruto orientativo del 20%; faltará considerar IVA, comisiones, portes y costes operativos.
 
 | SKU | Producto | Anterior | Propuesto | Coste real | Margen |
 |---|---|---:|---:|---:|---:|
@@ -242,7 +242,7 @@ Cuando se incorpore un coste verificado, el cálculo protege un margen bruto ori
 | ch-u-camera | Cámara | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-cassette | Casete | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-compass | Brújula | Nuevo | 0.95 € | Pendiente | No estimable |
-| ch-u-flame | Llama | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-u-flame | Llama de fuego | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-sun | Sol | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-music | Nota musical | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-circuit | Circuito | Nuevo | 0.95 € | Pendiente | No estimable |
@@ -296,3 +296,66 @@ Cuando se incorpore un coste verificado, el cálculo protege un margen bruto ori
 | ch-u-coral | Coral | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-ballet | Zapatilla de ballet | Nuevo | 0.95 € | Pendiente | No estimable |
 | ch-u-wing | Ala | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-frog | Ranita de estanque | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-duck | Patito de paseo | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-dachshund | Teckel de paseo | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-poodle | Caniche esponjoso | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-corgi | Corgi sonriente | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-dalmatian | Dálmata de lunares | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-dolphin | Delfín de verano | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-turtle | Tortuguita viajera | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-octopus | Pulpito curioso | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-whale | Ballena de sueños | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-fox | Zorrito de otoño | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-hedgehog | Erizo de jardín | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-cupcake | Cupcake de fresa | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-fries | Patatitas para compartir | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-sushi | Sushi de domingo | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-watermelon | Sandía al sol | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-peach | Melocotón suave | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-avocado | Aguacate feliz | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-boba | Té de burbujas | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-vinyl | Vinilo de domingo | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-dice | Dados de la suerte | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-headphones | Mi banda sonora | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-mascot | Bichito de ilusión | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-ribbonrose | Rosa de cinta | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-gingerbread | Galletita de Navidad | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-new-ghost | Fantasmita amable | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-a | Letra A | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-b | Letra B | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-c | Letra C | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-d | Letra D | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-e | Letra E | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-f | Letra F | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-g | Letra G | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-h | Letra H | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-i | Letra I | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-j | Letra J | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-k | Letra K | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-l | Letra L | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-m | Letra M | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-n | Letra N | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-enie | Letra Ñ | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-o | Letra O | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-p | Letra P | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-q | Letra Q | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-r | Letra R | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-s | Letra S | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-t | Letra T | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-u | Letra U | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-v | Letra V | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-w | Letra W | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-x | Letra X | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-y | Letra Y | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-inicial-z | Letra Z | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-0 | Número 0 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-1 | Número 1 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-2 | Número 2 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-3 | Número 3 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-4 | Número 4 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-5 | Número 5 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-6 | Número 6 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-7 | Número 7 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-8 | Número 8 | Nuevo | 0.95 € | Pendiente | No estimable |
+| ch-numero-9 | Número 9 | Nuevo | 0.95 € | Pendiente | No estimable |

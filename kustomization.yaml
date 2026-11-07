@@ -109,3 +109,212 @@ configMapGenerator:
   - name: paulitam-api-source
     files:
       - server/app.cjs
+  - name: paulitam-storefront
+    files:
+      - site/catalog-expansion.js
+      - site/product-media.js
+      - site/storefront-navigation.js
+      - site/storefront.css
+      - site/word-studio.js
+  # BEGIN GENERATED REFERENCE ASSETS
+  - name: paulitam-reference-01
+    files:
+      - site/ref-ch-cafe.webp
+      - site/ref-ch-calabaza.webp
+      - site/ref-ch-carta.webp
+      - site/ref-ch-copo.webp
+      - site/ref-ch-corazon.webp
+      - site/ref-ch-croissant.webp
+      - site/ref-ch-estrella.webp
+      - site/ref-ch-flor.webp
+  - name: paulitam-reference-02
+    files:
+      - site/ref-ch-gato.webp
+      - site/ref-ch-huella.webp
+      - site/ref-ch-inicial-a.webp
+      - site/ref-ch-inicial-b.webp
+      - site/ref-ch-inicial-c.webp
+      - site/ref-ch-inicial-d.webp
+      - site/ref-ch-inicial-e.webp
+      - site/ref-ch-inicial-enie.webp
+      - site/ref-ch-inicial-f.webp
+      - site/ref-ch-inicial-g.webp
+      - site/ref-ch-inicial-h.webp
+      - site/ref-ch-inicial-i.webp
+      - site/ref-ch-inicial-j.webp
+      - site/ref-ch-inicial-k.webp
+  - name: paulitam-reference-03
+    files:
+      - site/ref-ch-inicial-l.webp
+      - site/ref-ch-inicial-m.webp
+      - site/ref-ch-inicial-n.webp
+      - site/ref-ch-inicial-o.webp
+      - site/ref-ch-inicial-p.webp
+      - site/ref-ch-inicial-q.webp
+      - site/ref-ch-inicial-r.webp
+      - site/ref-ch-inicial-s.webp
+      - site/ref-ch-inicial-t.webp
+      - site/ref-ch-inicial-u.webp
+      - site/ref-ch-inicial-v.webp
+      - site/ref-ch-inicial-w.webp
+      - site/ref-ch-inicial-x.webp
+      - site/ref-ch-inicial-y.webp
+      - site/ref-ch-inicial-z.webp
+  - name: paulitam-reference-04
+    files:
+      - site/ref-ch-lazo.webp
+      - site/ref-ch-libro.webp
+      - site/ref-ch-luna.webp
+      - site/ref-ch-mariposa.webp
+      - site/ref-ch-mitades.webp
+      - site/ref-ch-new-avocado.webp
+      - site/ref-ch-new-boba.webp
+      - site/ref-ch-new-corgi.webp
+      - site/ref-ch-new-cupcake.webp
+  - name: paulitam-reference-05
+    files:
+      - site/ref-ch-new-dachshund.webp
+      - site/ref-ch-new-dalmatian.webp
+      - site/ref-ch-new-dice.webp
+      - site/ref-ch-new-dolphin.webp
+      - site/ref-ch-new-duck.webp
+      - site/ref-ch-new-fox.webp
+      - site/ref-ch-new-fries.webp
+      - site/ref-ch-new-frog.webp
+      - site/ref-ch-new-ghost.webp
+  - name: paulitam-reference-06
+    files:
+      - site/ref-ch-new-gingerbread.webp
+      - site/ref-ch-new-headphones.webp
+      - site/ref-ch-new-hedgehog.webp
+      - site/ref-ch-new-mascot.webp
+      - site/ref-ch-new-octopus.webp
+      - site/ref-ch-new-peach.webp
+      - site/ref-ch-new-poodle.webp
+      - site/ref-ch-new-ribbonrose.webp
+      - site/ref-ch-new-sushi.webp
+  - name: paulitam-reference-07
+    files:
+      - site/ref-ch-new-turtle.webp
+      - site/ref-ch-new-vinyl.webp
+      - site/ref-ch-new-watermelon.webp
+      - site/ref-ch-new-whale.webp
+      - site/ref-ch-nube.webp
+      - site/ref-ch-numero-0.webp
+      - site/ref-ch-numero-1.webp
+      - site/ref-ch-numero-2.webp
+      - site/ref-ch-numero-3.webp
+      - site/ref-ch-numero-4.webp
+      - site/ref-ch-numero-5.webp
+  - name: paulitam-reference-08
+    files:
+      - site/ref-ch-numero-6.webp
+      - site/ref-ch-numero-7.webp
+      - site/ref-ch-numero-8.webp
+      - site/ref-ch-numero-9.webp
+      - site/ref-ch-perla.webp
+      - site/ref-ch-sonrisa.webp
+      - site/ref-ch-u-arch.webp
+      - site/ref-ch-u-arrow.webp
+      - site/ref-ch-u-bag.webp
+      - site/ref-ch-u-ballet.webp
+      - site/ref-ch-u-bear.webp
+  - name: paulitam-reference-09
+    files:
+      - site/ref-ch-u-bee.webp
+      - site/ref-ch-u-bell.webp
+      - site/ref-ch-u-bike.webp
+      - site/ref-ch-u-boot.webp
+      - site/ref-ch-u-building.webp
+      - site/ref-ch-u-bunny.webp
+      - site/ref-ch-u-burger.webp
+      - site/ref-ch-u-cake.webp
+  - name: paulitam-reference-10
+    files:
+      - site/ref-ch-u-camera.webp
+      - site/ref-ch-u-candy.webp
+      - site/ref-ch-u-capybara.webp
+      - site/ref-ch-u-carrot.webp
+      - site/ref-ch-u-cassette.webp
+      - site/ref-ch-u-cherry.webp
+      - site/ref-ch-u-chocolate.webp
+      - site/ref-ch-u-circuit.webp
+      - site/ref-ch-u-clock.webp
+  - name: paulitam-reference-11
+    files:
+      - site/ref-ch-u-compass.webp
+      - site/ref-ch-u-constellation.webp
+      - site/ref-ch-u-coral.webp
+      - site/ref-ch-u-crayon.webp
+      - site/ref-ch-u-daisy.webp
+      - site/ref-ch-u-disco.webp
+      - site/ref-ch-u-dog.webp
+      - site/ref-ch-u-dome.webp
+      - site/ref-ch-u-donut.webp
+      - site/ref-ch-u-door.webp
+  - name: paulitam-reference-12
+    files:
+      - site/ref-ch-u-dress.webp
+      - site/ref-ch-u-eiffel.webp
+      - site/ref-ch-u-flame.webp
+      - site/ref-ch-u-gear.webp
+      - site/ref-ch-u-icecream.webp
+      - site/ref-ch-u-key.webp
+      - site/ref-ch-u-lace.webp
+      - site/ref-ch-u-leaf.webp
+      - site/ref-ch-u-lemon.webp
+      - site/ref-ch-u-lightning.webp
+  - name: paulitam-reference-13
+    files:
+      - site/ref-ch-u-lights.webp
+      - site/ref-ch-u-macaron.webp
+      - site/ref-ch-u-microphone.webp
+      - site/ref-ch-u-mirror.webp
+      - site/ref-ch-u-mountain.webp
+      - site/ref-ch-u-music.webp
+      - site/ref-ch-u-orange.webp
+      - site/ref-ch-u-owl.webp
+      - site/ref-ch-u-pancake.webp
+      - site/ref-ch-u-park.webp
+  - name: paulitam-reference-14
+    files:
+      - site/ref-ch-u-pasta.webp
+      - site/ref-ch-u-phone.webp
+      - site/ref-ch-u-planet.webp
+      - site/ref-ch-u-pomegranate.webp
+      - site/ref-ch-u-potion.webp
+      - site/ref-ch-u-quill.webp
+      - site/ref-ch-u-rainbow.webp
+      - site/ref-ch-u-ribbon.webp
+      - site/ref-ch-u-rose.webp
+  - name: paulitam-reference-15
+    files:
+      - site/ref-ch-u-scooter.webp
+      - site/ref-ch-u-shell.webp
+      - site/ref-ch-u-starfish.webp
+      - site/ref-ch-u-strawberry.webp
+      - site/ref-ch-u-sun.webp
+      - site/ref-ch-u-sunglasses.webp
+      - site/ref-ch-u-tail.webp
+      - site/ref-ch-u-taxi.webp
+      - site/ref-ch-u-tile.webp
+  - name: paulitam-reference-16
+    files:
+      - site/ref-ch-u-wave.webp
+      - site/ref-ch-u-wing.webp
+      - site/ref-liso-amarillo.webp
+      - site/ref-liso-azul.webp
+      - site/ref-liso-blanco.webp
+      - site/ref-liso-chicle.webp
+      - site/ref-liso-crema.webp
+  - name: paulitam-reference-17
+    files:
+      - site/ref-liso-lila.webp
+      - site/ref-liso-negro.webp
+      - site/ref-liso-pastel-lateral.webp
+      - site/ref-liso-pastel-superior.webp
+      - site/ref-liso-pastel.webp
+  - name: paulitam-reference-18
+    files:
+      - site/ref-liso-rojo.webp
+      - site/ref-liso-verde.webp

@@ -1,8 +1,10 @@
-# PaulitaM 2.0 — propuesta en revisión
+# PaulitaM 2.0
 
-Rama `paulitam-2-review`: no publicada. Conserva la tienda existente y amplía catálogo y experiencias. [Precios](review/PRECIOS.md), [condiciones y publicación GitOps](review/PUBLICACION.md), [licencias](review/LICENCIAS.md).
+Evolución de la tienda existente: HOME independiente, 43 colecciones, 197 modelos temáticos, diez colores lisos y 153 charms. Menú de seis secciones; favoritos y experiencias siguen accesibles. Carrito y pedido descargable, sin cobro. Las imágenes de lisos y charms son referencias generadas identificadas, no fotografías de inventario real.
 
-Vista local: `STATIC_DIR=site DATABASE_PATH=qa/review-v2.sqlite PORT=4173 node server/app.cjs` (Node 24 o superior; crear antes `qa/`). Pruebas: `node --test tests/*.test.cjs`.
+[Comparación de precios](review/PRECIOS.md) · [Operación GitOps y privacidad](review/PUBLICACION.md) · [Licencias](review/LICENCIAS.md) · [Imágenes y prompts](review/IMAGENES.json).
+
+Vista local: `mkdir -p qa` y `STATIC_DIR=site DATABASE_PATH=qa/review-v2.sqlite PORT=4173 node server/app.cjs` (Node 24+). Pruebas: `node --test tests/*.test.cjs`.
 
 La documentación de la versión anterior se conserva abajo como referencia del despliegue actual.
 
